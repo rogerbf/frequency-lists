@@ -1,5 +1,5 @@
 {
-  "name": "frequency-lists",
+  "name": "kelly-lists",
   "version": "0.0.1",
   "description": "",
   "main": "./distribution/index.js",
@@ -39,13 +39,5 @@
     "distribution",
     "README.md"
   ],
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rogerbf/frequency-lists.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rogerbf/frequency-lists/issues"
-  },
-  "homepage": "https://github.com/rogerbf/frequency-lists#readme"
+  "dependencies": {}
 }
