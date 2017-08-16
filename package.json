@@ -17,7 +17,7 @@
   },
   "keywords": [],
   "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
-  "license": "MIT",
+  "license": "CC-BY-SA-3.0",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
