@@ -1,6 +1,6 @@
 {
   "name": "kelly-lists",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "./distribution/index.js",
   "scripts": {
@@ -15,7 +15,15 @@
     "repl": "npm run build && babel-node",
     "nsp": "nsp check"
   },
-  "keywords": [],
+  "keywords": [
+    "words",
+    "word list",
+    "language",
+    "kelly",
+    "kelly project",
+    "eu",
+    "lists"
+  ],
   "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
   "license": "CC-BY-SA-3.0",
   "devDependencies": {
