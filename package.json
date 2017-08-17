@@ -1,7 +1,7 @@
 {
   "name": "kelly-lists",
   "version": "1.0.0",
-  "description": "",
+  "description": "word lists",
   "main": "./distribution/index.js",
   "scripts": {
     "test": "echo 'no tests'",
