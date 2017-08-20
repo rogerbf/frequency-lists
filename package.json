@@ -1,12 +1,12 @@
 {
   "name": "kelly-lists",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "word lists",
   "main": "./distribution/index.js",
   "scripts": {
     "test": "echo 'no tests'",
     "prebuild": "npm test && rimraf distribution",
-    "build": "cross-env BABEL_ENV=production babel --out-dir distribution source",
+    "build": "cross-env BABEL_ENV=production babel --copy-files --out-dir distribution source",
     "prepublish": "npm run nsp && npm run build",
     "start": "npm run build && node ./distribution/index.js",
     "watch:start": "chokidar \"source/*.js\" \"source/**/*.js\" -c \"npm run start\"",
